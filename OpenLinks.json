@@ -6,37 +6,28 @@
 	"footer": "Made with ❤️ by <a href='https://e10y.dev'>E10Y</a>",
 	"profile":
 		{
-			"name": "OpenLinks",
+			"name": "UrFavPampedTgirl",
 			"avatar": "avatar/Avatar.webp",
-			"description":"OpenSource JSON-driven",
+			"description":"Diaper Enthusiast",
 			"adult": false
 		}
 	,
 	"links": [
 		{
-			"name": "GitHub",
-			"url": "https://github.com/E10YDEV/OpenLinks",
-			"icon": "/icons/GitHub.svg"
-		},
-		{
-			"name": "Website",
-			"url": "https://e10y.dev",
-			"icon": "/icons/Web.svg"
-		},
-		{
-			"name": "Instagram",
-			"url": "#",
-			"icon": "/icons/Instagram.svg"
-		},
-		{
 			"name": "Twitter",
-			"url": "#",
+			"url": "https://x.com/UrFavPampdTgirl",
 			"icon": "/icons/X.svg"
 		},
 		{
-			"name": "Mail",
+			"name": "Throne",
+			"url": "https://throne.com/urfavpampedtgirl",
+			"icon": "/icons/throne.svg"
+		},
+		{
+			"name": "JustForFans",
 			"url": "#",
-			"icon": "/icons/Mail.svg"
+			"icon": "/icons/Instagram.svg"
+
 		}
 	]
 }

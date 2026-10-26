@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+/* PINK GRADIENT BACKGROUND */
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ffd1e8 0%, #ff9ccf 50%, #ff6fb5 100%);
+  background-attachment: fixed;
+}
+
 /* TEMPLATE NESS */
 
 @font-face {
@@ -16,25 +24,25 @@
 .pixel-corners,
 .pixel-corners--wrapper {
   clip-path: polygon(0px calc(100% - 8px),
-      4px calc(100% - 8px),
-      4px calc(100% - 4px),
-      8px calc(100% - 4px),
-      8px 100%,
-      calc(100% - 8px) 100%,
-      calc(100% - 8px) calc(100% - 4px),
-      calc(100% - 4px) calc(100% - 4px),
-      calc(100% - 4px) calc(100% - 8px),
-      100% calc(100% - 8px),
-      100% 8px,
-      calc(100% - 4px) 8px,
-      calc(100% - 4px) 4px,
-      calc(100% - 8px) 4px,
-      calc(100% - 8px) 0px,
-      8px 0px,
-      8px 4px,
-      4px 4px,
-      4px 8px,
-      0px 8px);
+    4px calc(100% - 8px),
+    4px calc(100% - 4px),
+    8px calc(100% - 4px),
+    8px 100%,
+    calc(100% - 8px) 100%,
+    calc(100% - 8px) calc(100% - 4px),
+    calc(100% - 4px) calc(100% - 4px),
+    calc(100% - 4px) calc(100% - 8px),
+    100% calc(100% - 8px),
+    100% 8px,
+    calc(100% - 4px) 8px,
+    calc(100% - 4px) 4px,
+    calc(100% - 8px) 4px,
+    calc(100% - 8px) 0px,
+    8px 0px,
+    8px 4px,
+    4px 4px,
+    4px 8px,
+    0px 8px);
   position: relative;
 }
 
@@ -50,17 +58,17 @@
 .pixel-corners--wrapper .pixel-corners {
   display: block;
   clip-path: polygon(4px 8px,
-      8px 8px,
-      8px 4px,
-      calc(100% - 8px) 4px,
-      calc(100% - 8px) 8px,
-      calc(100% - 4px) 8px,
-      calc(100% - 4px) calc(100% - 8px),
-      calc(100% - 8px) calc(100% - 8px),
-      calc(100% - 8px) calc(100% - 4px),
-      8px calc(100% - 4px),
-      8px calc(100% - 8px),
-      4px calc(100% - 8px));
+    8px 8px,
+    8px 4px,
+    calc(100% - 8px) 4px,
+    calc(100% - 8px) 8px,
+    calc(100% - 4px) 8px,
+    calc(100% - 4px) calc(100% - 8px),
+    calc(100% - 8px) calc(100% - 8px),
+    calc(100% - 8px) calc(100% - 4px),
+    8px calc(100% - 4px),
+    8px calc(100% - 8px),
+    4px calc(100% - 8px));
 }
 
 .pixel-corners::after,
@@ -68,41 +76,41 @@
   content: "";
   position: absolute;
   clip-path: polygon(0px calc(100% - 8px),
-      4px calc(100% - 8px),
-      4px calc(100% - 4px),
-      8px calc(100% - 4px),
-      8px 100%,
-      calc(100% - 8px) 100%,
-      calc(100% - 8px) calc(100% - 4px),
-      calc(100% - 4px) calc(100% - 4px),
-      calc(100% - 4px) calc(100% - 8px),
-      100% calc(100% - 8px),
-      100% 8px,
-      calc(100% - 4px) 8px,
-      calc(100% - 4px) 4px,
-      calc(100% - 8px) 4px,
-      calc(100% - 8px) 0px,
-      8px 0px,
-      8px 4px,
-      4px 4px,
-      4px 8px,
-      0px 8px,
-      0px 50%,
-      4px 50%,
-      4px 8px,
-      8px 8px,
-      8px 4px,
-      calc(100% - 8px) 4px,
-      calc(100% - 8px) 8px,
-      calc(100% - 4px) 8px,
-      calc(100% - 4px) calc(100% - 8px),
-      calc(100% - 8px) calc(100% - 8px),
-      calc(100% - 8px) calc(100% - 4px),
-      8px calc(100% - 4px),
-      8px calc(100% - 8px),
-      4px calc(100% - 8px),
-      4px 50%,
-      0px 50%);
+    4px calc(100% - 8px),
+    4px calc(100% - 4px),
+    8px calc(100% - 4px),
+    8px 100%,
+    calc(100% - 8px) 100%,
+    calc(100% - 8px) calc(100% - 4px),
+    calc(100% - 4px) calc(100% - 4px),
+    calc(100% - 4px) calc(100% - 8px),
+    100% calc(100% - 8px),
+    100% 8px,
+    calc(100% - 4px) 8px,
+    calc(100% - 4px) 4px,
+    calc(100% - 8px) 4px,
+    calc(100% - 8px) 0px,
+    8px 0px,
+    8px 4px,
+    4px 4px,
+    4px 8px,
+    0px 8px,
+    0px 50%,
+    4px 50%,
+    4px 8px,
+    8px 8px,
+    8px 4px,
+    calc(100% - 8px) 4px,
+    calc(100% - 8px) 8px,
+    calc(100% - 4px) 8px,
+    calc(100% - 4px) calc(100% - 8px),
+    calc(100% - 8px) calc(100% - 8px),
+    calc(100% - 8px) calc(100% - 4px),
+    8px calc(100% - 4px),
+    8px calc(100% - 8px),
+    4px calc(100% - 8px),
+    4px 50%,
+    0px 50%);
   top: 0;
   bottom: 0;
   left: 0;
