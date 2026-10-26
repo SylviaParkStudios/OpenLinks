@@ -1,5 +1,9 @@
 ---
 import "../styles/global.css";
+import { inject } from '@vercel/analytics';
+
+inject();
+
 const { themeClass, meta } = Astro.props;
 ---
 
