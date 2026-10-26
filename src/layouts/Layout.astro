@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import Analytics from "@vercel/analytics/astro";
 const { themeClass, meta } = Astro.props;
 ---
 
@@ -20,6 +21,7 @@ const { themeClass, meta } = Astro.props;
 		<meta name="twitter:title" content={meta.title} />
 		<meta name="twitter:description" content={meta.description} />
 		<link rel="canonical" href={meta.url_base} />
+		<Analytics />
 	</head>
 	<body class={`min-h-screen ${themeClass.background}`}>
 		<div class="container max-w-md mx-auto px-4 py-8">
